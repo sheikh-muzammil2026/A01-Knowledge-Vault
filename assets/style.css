@@ -100,15 +100,21 @@ nav .menu li a {
     
 }
 
+/* .dot {
+    background-color: #469165;
+    border-radius: 50%;
+    border: none;
+    opacity: 100%;
+} */
 
 h1{
     align-items: center;
-    font-style: Bold;
+    /* font-style: Bold; */
     font-size: 72px;
     font-weight: 700;
     line-height: 84px;
     text-align: center;
-   gap:16px;
+   /* gap:16px; */
     margin-bottom: 32px;
 
 }
@@ -127,7 +133,7 @@ h1{
     text-align: center;
     color: #FFFFFF;
     font-weight: 400;
-    letter-spacing: 0%;
+    /* letter-spacing: 0%; */
 
     margin-bottom: 32px;
 
@@ -137,56 +143,74 @@ h1{
       display: flex;
       justify-content: center;
       gap: 16px;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
     }                                                                                                                                                                                                                                                                                                                                                                       
 
 .btn2 {
     background:#469165;
       color: #FFFFFF;
       border: none;
-      padding: 14px 22px;
+      padding: 16px 12px;
       border-radius: 10px;
       font-size: 16px;
       font-weight: 600;
       cursor: pointer;
+      display: flex;
+     /* align-items: center; */
+     gap: 10px;
+}
+
+.btn2:hover {
+     color:#F95555;
+    background-color: yellow;
 }
 
 .btn3{
     background: transparent;
       color: #FFFFFF;
       border: 1px solid rgba(255,255,255,0.4);
-      padding: 14px 22px;
-      border-radius: 10px;
+      padding: 12px 16px;
+      border-radius: 4px;
       font-size: 16px;
       font-weight: 600;
       cursor: pointer;
+      display: flex;
+      gap:10px;
+      align-items: center;   
+
 }
 
 
+.btn3:hover {
+     color:#F95555;
+    background-color: yellow;
+}
 
 
 .notes-container {
-    width: 1600px;
-    height:  448px;
-   
+    /* width: 1600px;
+    height:  448px; */
     padding: 0px 120px;
+    /* margin: 0px auto; */
+   
 }
 
 .notes-content {
   
-    width:100% ;
+    /* width:100% ;
     max-width: 1360px;
-    min-height: 152px;
+    min-height: 152px; */
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: center;
     gap: 16px;
 }
 .notes-content h2 {
     font-size:  48px;
     font-weight: bold;
-    gap: 16px;
+  padding-top: 36px;
+
 }
 .notes-content p{
     color: #627382;
@@ -195,9 +219,9 @@ h1{
 
 
 .notes-cards {
-     width:100% ;
+     /* width:100% ;
     max-width: 1360px;
-    min-height: 300px;
+    min-height: 300px; */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -241,7 +265,7 @@ h1{
 
 .second-brain-container{
    
-    max-width: 1600px;
+    /* max-width: 1600px; */
     padding: 120px;
     display: flex;
    
@@ -303,7 +327,7 @@ h1{
 
 
 .early-access-container {
-    max-width: 1600px;
+    /* max-width: 1600px; */
     display: flex;
     justify-content: center;
     align-items: center;
